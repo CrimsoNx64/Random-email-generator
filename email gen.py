@@ -10,9 +10,35 @@ def get_random_string(length):
     result_str3=result_str3+"@gmail.com"
     print(result_str3)
 
+
+
 get_random_string(8)
 get_random_string(8)
 get_random_string(8)
 get_random_string(8)
 get_random_string(8)
 
+
+repeat=int(input("Repeat? 1 = yes, 2 = no: "))
+print("")
+get_random_string(8)
+get_random_string(8)
+get_random_string(8)
+get_random_string(8)
+get_random_string(8)
+print("")
+
+while  repeat == 1:
+    repeat=int(input("Repeat? 1 = yes, 2 = no: "))
+    print("")
+    get_random_string(8)
+    get_random_string(8)
+    get_random_string(8)
+    get_random_string(8)
+    get_random_string(8)
+    print("")
+
+else:
+    print("end")
+    
+    
